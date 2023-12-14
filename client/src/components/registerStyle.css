@@ -1,0 +1,51 @@
+/* RegisterComponentStyles.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4fc; /* Elegant light lavender background */
+  }
+  
+  form {
+    border: 1px solid #d4d4d4;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for the form */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Fixed width for the form */
+  }
+  
+  input {
+    display: block;
+    width: 95%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #5a67d8; /* Elegant blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #4c51bf; /* Darker blue for hover effect */
+  }
+  .error-message {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #e53e3e; /* Red color for error messages */
+    background-color: #fed7d7; /* Light red background for better visibility */
+    text-align: center;
+}

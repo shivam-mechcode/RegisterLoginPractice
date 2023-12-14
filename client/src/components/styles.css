@@ -1,0 +1,35 @@
+/* ButtonComponentStyles.css */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffdede;
+  }
+  
+  .container {
+    border: 1px solid #e0e0e0;
+    padding: 20px; /* Increased padding for a bigger box */
+    display: inline-flex;
+    border-radius: 8px; /* Slightly rounded corners for a smoother look */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em; /* Increase font size for larger text inside the box */
+  }
+  
+  .button {
+    margin: 0 15px; /* Increased margin for spacing between bigger buttons */
+    background-color: #190f0f;
+    border: 1px solid #d4d4d4;
+    padding: 10px 20px; /* Increased padding for larger buttons */
+    border-radius: 5px; /* Slightly more rounded corners for the buttons */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em; /* Adjusted font size for the button text */
+  }
+  
+  .button:hover {
+    background-color: #e1e1e1;
+  }
+  
